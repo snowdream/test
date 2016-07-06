@@ -4,7 +4,7 @@ buildscript {
         jcenter { url "http://jcenter.bintray.com/" }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle-experimental:0.4.0'
+        classpath 'com.android.tools.build:gradle-experimental:0.7.0-alpha1'
     }
 }
 
@@ -12,4 +12,8 @@ allprojects {
     repositories {
         jcenter { url "http://jcenter.bintray.com/" }
     }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.10'
 }
