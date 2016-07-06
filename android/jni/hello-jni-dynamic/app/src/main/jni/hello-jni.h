@@ -23,4 +23,4 @@
  *
  *   apps/samples/hello-jni/project/src/com/example/hellojni/HelloJni.java
  */
-jstring native_hello( JNIEnv* env, jobject thiz );
+JNIEXPORT jstring JNICALL native_hello( JNIEnv* env, jobject thiz );
