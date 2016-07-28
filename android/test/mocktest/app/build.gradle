@@ -20,23 +20,24 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha1'
 
-
-    testCompile 'junit:junit:4.12'
+    testCompile 'junit:junit:4.11'
     // required if you want to use Mockito for unit tests
-    testCompile 'org.mockito:mockito-core:2.0.9-beta'
+    testCompile 'org.mockito:mockito-core:1.9.5'
+    // required if you want to use Powermock for unit tests
+    testCompile 'org.powermock:powermock-module-junit4:1.5.6'
+    testCompile 'org.powermock:powermock-module-junit4-rule:1.5.6'
+    testCompile 'org.powermock:powermock-api-mockito:1.5.6'
 
     // required if you want to use Mockito for Android instrumentation tests
-    androidTestCompile 'org.mockito:mockito-core:2.0.9-beta'
-    androidTestCompile "com.google.dexmaker:dexmaker:1.2"
-    androidTestCompile "com.google.dexmaker:dexmaker-mockito:1.2"
-
-    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
-    androidTestCompile 'com.android.support.test:runner:0.5'
-    androidTestCompile 'com.android.support:support-annotations:24.0.0'
-
-
+    androidTestCompile 'org.mockito:mockito-core:1.9.5'
+    androidTestCompile 'com.google.dexmaker:dexmaker:1.2'
+    androidTestCompile 'com.google.dexmaker:dexmaker-mockito:1.2'
+    //
+    //    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    //    androidTestCompile 'com.android.support.test:runner:0.5'
+    //    androidTestCompile 'com.android.support:support-annotations:24.0.0'
 }
