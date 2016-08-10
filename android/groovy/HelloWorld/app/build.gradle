@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: "com.dorongold.task-tree"
-
+apply plugin: 'groovyx.android'
 
 android {
     compileSdkVersion 24
@@ -21,9 +21,34 @@ android {
     }
 }
 
+androidGroovy {
+    skipJavaC = true
+
+    sourceSets {
+        main {
+            groovy {
+                srcDirs += 'src/main/java'
+            }
+        }
+    }
+
+    options {
+        configure(groovyOptions) {
+            encoding = 'UTF-8'
+            forkOptions.jvmArgs = ['-noverify'] // maybe necessary if you use Google Play Services
+            javaAnnotationProcessing = true
+        }
+        sourceCompatibility = '1.7' // as of 0.3.9 these are automatically set based off the android plugin's
+        targetCompatibility = '1.7'
+    }
+}
+
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.1.1'
     compile 'com.android.support:design:24.1.1'
+    compile 'org.codehaus.groovy:groovy:2.4.6:grooid'
+
 }
