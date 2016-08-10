@@ -1,0 +1,1195 @@
+Incremental java compilation is an incubating feature.
+:app:preBuild SKIPPED
+:app:preDebugBuild SKIPPED
+:app:checkDebugManifest SKIPPED
+:app:preReleaseBuild SKIPPED
+:app:prepareComAndroidSupportAnimatedVectorDrawable2411Library SKIPPED
+:app:prepareComAndroidSupportAppcompatV72411Library SKIPPED
+:app:prepareComAndroidSupportDesign2411Library SKIPPED
+:app:prepareComAndroidSupportRecyclerviewV72411Library SKIPPED
+:app:prepareComAndroidSupportSupportV42411Library SKIPPED
+:app:prepareComAndroidSupportSupportVectorDrawable2411Library SKIPPED
+:app:prepareDebugDependencies SKIPPED
+:app:compileDebugAidl SKIPPED
+:app:compileDebugRenderscript SKIPPED
+:app:generateDebugBuildConfig SKIPPED
+:app:generateDebugAssets SKIPPED
+:app:mergeDebugAssets SKIPPED
+:app:generateDebugResValues SKIPPED
+:app:generateDebugResources SKIPPED
+:app:mergeDebugResources SKIPPED
+:app:processDebugManifest SKIPPED
+:app:processDebugResources SKIPPED
+:app:generateDebugSources SKIPPED
+:app:compileDebugJavaWithJavac SKIPPED
+:app:compileDebugNdk SKIPPED
+:app:compileDebugSources SKIPPED
+:app:prePackageMarkerForDebug SKIPPED
+:app:transformClassesWithDexForDebug SKIPPED
+:app:mergeDebugJniLibFolders SKIPPED
+:app:transformNative_libsWithMergeJniLibsForDebug SKIPPED
+:app:processDebugJavaRes SKIPPED
+:app:transformResourcesWithMergeJavaResForDebug SKIPPED
+:app:validateDebugSigning SKIPPED
+:app:packageDebug SKIPPED
+:app:zipalignDebug SKIPPED
+:app:assembleDebug SKIPPED
+:app:taskTree
+
+------------------------------------------------------------
+Project :app
+------------------------------------------------------------
+
+:app:assembleDebug
++--- :app:compileDebugSources
+|    +--- :app:compileDebugJavaWithJavac
+|    |    +--- :app:generateDebugSources
+|    |    |    +--- :app:compileDebugAidl
+|    |    |    |    \--- :app:prepareDebugDependencies
+|    |    |    |         +--- :app:checkDebugManifest
+|    |    |    |         |    \--- :app:preDebugBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         +--- :app:preDebugBuild
+|    |    |    |         |    \--- :app:preBuild
+|    |    |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+|    |    |    |         |    +--- :app:preDebugBuild
+|    |    |    |         |    |    \--- :app:preBuild
+|    |    |    |         |    \--- :app:preReleaseBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+|    |    |    |         |    +--- :app:preDebugBuild
+|    |    |    |         |    |    \--- :app:preBuild
+|    |    |    |         |    \--- :app:preReleaseBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+|    |    |    |         |    +--- :app:preDebugBuild
+|    |    |    |         |    |    \--- :app:preBuild
+|    |    |    |         |    \--- :app:preReleaseBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+|    |    |    |         |    +--- :app:preDebugBuild
+|    |    |    |         |    |    \--- :app:preBuild
+|    |    |    |         |    \--- :app:preReleaseBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+|    |    |    |         |    +--- :app:preDebugBuild
+|    |    |    |         |    |    \--- :app:preBuild
+|    |    |    |         |    \--- :app:preReleaseBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+|    |    |    |              +--- :app:preDebugBuild
+|    |    |    |              |    \--- :app:preBuild
+|    |    |    |              \--- :app:preReleaseBuild
+|    |    |    |                   \--- :app:preBuild
+|    |    |    +--- :app:compileDebugRenderscript
+|    |    |    |    +--- :app:checkDebugManifest
+|    |    |    |    |    \--- :app:preDebugBuild
+|    |    |    |    |         \--- :app:preBuild
+|    |    |    |    \--- :app:prepareDebugDependencies
+|    |    |    |         +--- :app:checkDebugManifest
+|    |    |    |         |    \--- :app:preDebugBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         +--- :app:preDebugBuild
+|    |    |    |         |    \--- :app:preBuild
+|    |    |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+|    |    |    |         |    +--- :app:preDebugBuild
+|    |    |    |         |    |    \--- :app:preBuild
+|    |    |    |         |    \--- :app:preReleaseBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+|    |    |    |         |    +--- :app:preDebugBuild
+|    |    |    |         |    |    \--- :app:preBuild
+|    |    |    |         |    \--- :app:preReleaseBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+|    |    |    |         |    +--- :app:preDebugBuild
+|    |    |    |         |    |    \--- :app:preBuild
+|    |    |    |         |    \--- :app:preReleaseBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+|    |    |    |         |    +--- :app:preDebugBuild
+|    |    |    |         |    |    \--- :app:preBuild
+|    |    |    |         |    \--- :app:preReleaseBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+|    |    |    |         |    +--- :app:preDebugBuild
+|    |    |    |         |    |    \--- :app:preBuild
+|    |    |    |         |    \--- :app:preReleaseBuild
+|    |    |    |         |         \--- :app:preBuild
+|    |    |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+|    |    |    |              +--- :app:preDebugBuild
+|    |    |    |              |    \--- :app:preBuild
+|    |    |    |              \--- :app:preReleaseBuild
+|    |    |    |                   \--- :app:preBuild
+|    |    |    +--- :app:generateDebugBuildConfig
+|    |    |    |    \--- :app:checkDebugManifest
+|    |    |    |         \--- :app:preDebugBuild
+|    |    |    |              \--- :app:preBuild
+|    |    |    \--- :app:processDebugResources
+|    |    |         +--- :app:mergeDebugAssets
+|    |    |         |    +--- :app:generateDebugAssets
+|    |    |         |    \--- :app:prepareDebugDependencies
+|    |    |         |         +--- :app:checkDebugManifest
+|    |    |         |         |    \--- :app:preDebugBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         +--- :app:preDebugBuild
+|    |    |         |         |    \--- :app:preBuild
+|    |    |         |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+|    |    |         |         |    +--- :app:preDebugBuild
+|    |    |         |         |    |    \--- :app:preBuild
+|    |    |         |         |    \--- :app:preReleaseBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+|    |    |         |         |    +--- :app:preDebugBuild
+|    |    |         |         |    |    \--- :app:preBuild
+|    |    |         |         |    \--- :app:preReleaseBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         +--- :app:prepareComAndroidSupportDesign2411Library
+|    |    |         |         |    +--- :app:preDebugBuild
+|    |    |         |         |    |    \--- :app:preBuild
+|    |    |         |         |    \--- :app:preReleaseBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+|    |    |         |         |    +--- :app:preDebugBuild
+|    |    |         |         |    |    \--- :app:preBuild
+|    |    |         |         |    \--- :app:preReleaseBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         +--- :app:prepareComAndroidSupportSupportV42411Library
+|    |    |         |         |    +--- :app:preDebugBuild
+|    |    |         |         |    |    \--- :app:preBuild
+|    |    |         |         |    \--- :app:preReleaseBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+|    |    |         |              +--- :app:preDebugBuild
+|    |    |         |              |    \--- :app:preBuild
+|    |    |         |              \--- :app:preReleaseBuild
+|    |    |         |                   \--- :app:preBuild
+|    |    |         +--- :app:mergeDebugResources
+|    |    |         |    +--- :app:generateDebugResources
+|    |    |         |    |    +--- :app:compileDebugRenderscript
+|    |    |         |    |    |    +--- :app:checkDebugManifest
+|    |    |         |    |    |    |    \--- :app:preDebugBuild
+|    |    |         |    |    |    |         \--- :app:preBuild
+|    |    |         |    |    |    \--- :app:prepareDebugDependencies
+|    |    |         |    |    |         +--- :app:checkDebugManifest
+|    |    |         |    |    |         |    \--- :app:preDebugBuild
+|    |    |         |    |    |         |         \--- :app:preBuild
+|    |    |         |    |    |         +--- :app:preDebugBuild
+|    |    |         |    |    |         |    \--- :app:preBuild
+|    |    |         |    |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+|    |    |         |    |    |         |    +--- :app:preDebugBuild
+|    |    |         |    |    |         |    |    \--- :app:preBuild
+|    |    |         |    |    |         |    \--- :app:preReleaseBuild
+|    |    |         |    |    |         |         \--- :app:preBuild
+|    |    |         |    |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+|    |    |         |    |    |         |    +--- :app:preDebugBuild
+|    |    |         |    |    |         |    |    \--- :app:preBuild
+|    |    |         |    |    |         |    \--- :app:preReleaseBuild
+|    |    |         |    |    |         |         \--- :app:preBuild
+|    |    |         |    |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+|    |    |         |    |    |         |    +--- :app:preDebugBuild
+|    |    |         |    |    |         |    |    \--- :app:preBuild
+|    |    |         |    |    |         |    \--- :app:preReleaseBuild
+|    |    |         |    |    |         |         \--- :app:preBuild
+|    |    |         |    |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+|    |    |         |    |    |         |    +--- :app:preDebugBuild
+|    |    |         |    |    |         |    |    \--- :app:preBuild
+|    |    |         |    |    |         |    \--- :app:preReleaseBuild
+|    |    |         |    |    |         |         \--- :app:preBuild
+|    |    |         |    |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+|    |    |         |    |    |         |    +--- :app:preDebugBuild
+|    |    |         |    |    |         |    |    \--- :app:preBuild
+|    |    |         |    |    |         |    \--- :app:preReleaseBuild
+|    |    |         |    |    |         |         \--- :app:preBuild
+|    |    |         |    |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+|    |    |         |    |    |              +--- :app:preDebugBuild
+|    |    |         |    |    |              |    \--- :app:preBuild
+|    |    |         |    |    |              \--- :app:preReleaseBuild
+|    |    |         |    |    |                   \--- :app:preBuild
+|    |    |         |    |    \--- :app:generateDebugResValues
+|    |    |         |    \--- :app:prepareDebugDependencies
+|    |    |         |         +--- :app:checkDebugManifest
+|    |    |         |         |    \--- :app:preDebugBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         +--- :app:preDebugBuild
+|    |    |         |         |    \--- :app:preBuild
+|    |    |         |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+|    |    |         |         |    +--- :app:preDebugBuild
+|    |    |         |         |    |    \--- :app:preBuild
+|    |    |         |         |    \--- :app:preReleaseBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+|    |    |         |         |    +--- :app:preDebugBuild
+|    |    |         |         |    |    \--- :app:preBuild
+|    |    |         |         |    \--- :app:preReleaseBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         +--- :app:prepareComAndroidSupportDesign2411Library
+|    |    |         |         |    +--- :app:preDebugBuild
+|    |    |         |         |    |    \--- :app:preBuild
+|    |    |         |         |    \--- :app:preReleaseBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+|    |    |         |         |    +--- :app:preDebugBuild
+|    |    |         |         |    |    \--- :app:preBuild
+|    |    |         |         |    \--- :app:preReleaseBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         +--- :app:prepareComAndroidSupportSupportV42411Library
+|    |    |         |         |    +--- :app:preDebugBuild
+|    |    |         |         |    |    \--- :app:preBuild
+|    |    |         |         |    \--- :app:preReleaseBuild
+|    |    |         |         |         \--- :app:preBuild
+|    |    |         |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+|    |    |         |              +--- :app:preDebugBuild
+|    |    |         |              |    \--- :app:preBuild
+|    |    |         |              \--- :app:preReleaseBuild
+|    |    |         |                   \--- :app:preBuild
+|    |    |         \--- :app:processDebugManifest
+|    |    |              \--- :app:prepareDebugDependencies
+|    |    |                   +--- :app:checkDebugManifest
+|    |    |                   |    \--- :app:preDebugBuild
+|    |    |                   |         \--- :app:preBuild
+|    |    |                   +--- :app:preDebugBuild
+|    |    |                   |    \--- :app:preBuild
+|    |    |                   +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+|    |    |                   |    +--- :app:preDebugBuild
+|    |    |                   |    |    \--- :app:preBuild
+|    |    |                   |    \--- :app:preReleaseBuild
+|    |    |                   |         \--- :app:preBuild
+|    |    |                   +--- :app:prepareComAndroidSupportAppcompatV72411Library
+|    |    |                   |    +--- :app:preDebugBuild
+|    |    |                   |    |    \--- :app:preBuild
+|    |    |                   |    \--- :app:preReleaseBuild
+|    |    |                   |         \--- :app:preBuild
+|    |    |                   +--- :app:prepareComAndroidSupportDesign2411Library
+|    |    |                   |    +--- :app:preDebugBuild
+|    |    |                   |    |    \--- :app:preBuild
+|    |    |                   |    \--- :app:preReleaseBuild
+|    |    |                   |         \--- :app:preBuild
+|    |    |                   +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+|    |    |                   |    +--- :app:preDebugBuild
+|    |    |                   |    |    \--- :app:preBuild
+|    |    |                   |    \--- :app:preReleaseBuild
+|    |    |                   |         \--- :app:preBuild
+|    |    |                   +--- :app:prepareComAndroidSupportSupportV42411Library
+|    |    |                   |    +--- :app:preDebugBuild
+|    |    |                   |    |    \--- :app:preBuild
+|    |    |                   |    \--- :app:preReleaseBuild
+|    |    |                   |         \--- :app:preBuild
+|    |    |                   \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+|    |    |                        +--- :app:preDebugBuild
+|    |    |                        |    \--- :app:preBuild
+|    |    |                        \--- :app:preReleaseBuild
+|    |    |                             \--- :app:preBuild
+|    |    \--- :app:prepareDebugDependencies
+|    |         +--- :app:checkDebugManifest
+|    |         |    \--- :app:preDebugBuild
+|    |         |         \--- :app:preBuild
+|    |         +--- :app:preDebugBuild
+|    |         |    \--- :app:preBuild
+|    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+|    |         |    +--- :app:preDebugBuild
+|    |         |    |    \--- :app:preBuild
+|    |         |    \--- :app:preReleaseBuild
+|    |         |         \--- :app:preBuild
+|    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+|    |         |    +--- :app:preDebugBuild
+|    |         |    |    \--- :app:preBuild
+|    |         |    \--- :app:preReleaseBuild
+|    |         |         \--- :app:preBuild
+|    |         +--- :app:prepareComAndroidSupportDesign2411Library
+|    |         |    +--- :app:preDebugBuild
+|    |         |    |    \--- :app:preBuild
+|    |         |    \--- :app:preReleaseBuild
+|    |         |         \--- :app:preBuild
+|    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+|    |         |    +--- :app:preDebugBuild
+|    |         |    |    \--- :app:preBuild
+|    |         |    \--- :app:preReleaseBuild
+|    |         |         \--- :app:preBuild
+|    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+|    |         |    +--- :app:preDebugBuild
+|    |         |    |    \--- :app:preBuild
+|    |         |    \--- :app:preReleaseBuild
+|    |         |         \--- :app:preBuild
+|    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+|    |              +--- :app:preDebugBuild
+|    |              |    \--- :app:preBuild
+|    |              \--- :app:preReleaseBuild
+|    |                   \--- :app:preBuild
+|    \--- :app:compileDebugNdk
+|         \--- :app:preDebugBuild
+|              \--- :app:preBuild
+\--- :app:zipalignDebug
+     \--- :app:packageDebug
+          +--- :app:compileDebugJavaWithJavac
+          |    +--- :app:generateDebugSources
+          |    |    +--- :app:compileDebugAidl
+          |    |    |    \--- :app:prepareDebugDependencies
+          |    |    |         +--- :app:checkDebugManifest
+          |    |    |         |    \--- :app:preDebugBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         +--- :app:preDebugBuild
+          |    |    |         |    \--- :app:preBuild
+          |    |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |    |              +--- :app:preDebugBuild
+          |    |    |              |    \--- :app:preBuild
+          |    |    |              \--- :app:preReleaseBuild
+          |    |    |                   \--- :app:preBuild
+          |    |    +--- :app:compileDebugRenderscript
+          |    |    |    +--- :app:checkDebugManifest
+          |    |    |    |    \--- :app:preDebugBuild
+          |    |    |    |         \--- :app:preBuild
+          |    |    |    \--- :app:prepareDebugDependencies
+          |    |    |         +--- :app:checkDebugManifest
+          |    |    |         |    \--- :app:preDebugBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         +--- :app:preDebugBuild
+          |    |    |         |    \--- :app:preBuild
+          |    |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |         \--- :app:preBuild
+          |    |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |    |              +--- :app:preDebugBuild
+          |    |    |              |    \--- :app:preBuild
+          |    |    |              \--- :app:preReleaseBuild
+          |    |    |                   \--- :app:preBuild
+          |    |    +--- :app:generateDebugBuildConfig
+          |    |    |    \--- :app:checkDebugManifest
+          |    |    |         \--- :app:preDebugBuild
+          |    |    |              \--- :app:preBuild
+          |    |    \--- :app:processDebugResources
+          |    |         +--- :app:mergeDebugAssets
+          |    |         |    +--- :app:generateDebugAssets
+          |    |         |    \--- :app:prepareDebugDependencies
+          |    |         |         +--- :app:checkDebugManifest
+          |    |         |         |    \--- :app:preDebugBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         +--- :app:preDebugBuild
+          |    |         |         |    \--- :app:preBuild
+          |    |         |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |         |         |    +--- :app:preDebugBuild
+          |    |         |         |    |    \--- :app:preBuild
+          |    |         |         |    \--- :app:preReleaseBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |         |         |    +--- :app:preDebugBuild
+          |    |         |         |    |    \--- :app:preBuild
+          |    |         |         |    \--- :app:preReleaseBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |         |         |    +--- :app:preDebugBuild
+          |    |         |         |    |    \--- :app:preBuild
+          |    |         |         |    \--- :app:preReleaseBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |         |         |    +--- :app:preDebugBuild
+          |    |         |         |    |    \--- :app:preBuild
+          |    |         |         |    \--- :app:preReleaseBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |         |         |    +--- :app:preDebugBuild
+          |    |         |         |    |    \--- :app:preBuild
+          |    |         |         |    \--- :app:preReleaseBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |         |              +--- :app:preDebugBuild
+          |    |         |              |    \--- :app:preBuild
+          |    |         |              \--- :app:preReleaseBuild
+          |    |         |                   \--- :app:preBuild
+          |    |         +--- :app:mergeDebugResources
+          |    |         |    +--- :app:generateDebugResources
+          |    |         |    |    +--- :app:compileDebugRenderscript
+          |    |         |    |    |    +--- :app:checkDebugManifest
+          |    |         |    |    |    |    \--- :app:preDebugBuild
+          |    |         |    |    |    |         \--- :app:preBuild
+          |    |         |    |    |    \--- :app:prepareDebugDependencies
+          |    |         |    |    |         +--- :app:checkDebugManifest
+          |    |         |    |    |         |    \--- :app:preDebugBuild
+          |    |         |    |    |         |         \--- :app:preBuild
+          |    |         |    |    |         +--- :app:preDebugBuild
+          |    |         |    |    |         |    \--- :app:preBuild
+          |    |         |    |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |         |    |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    |         |    |    \--- :app:preBuild
+          |    |         |    |    |         |    \--- :app:preReleaseBuild
+          |    |         |    |    |         |         \--- :app:preBuild
+          |    |         |    |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |         |    |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    |         |    |    \--- :app:preBuild
+          |    |         |    |    |         |    \--- :app:preReleaseBuild
+          |    |         |    |    |         |         \--- :app:preBuild
+          |    |         |    |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |         |    |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    |         |    |    \--- :app:preBuild
+          |    |         |    |    |         |    \--- :app:preReleaseBuild
+          |    |         |    |    |         |         \--- :app:preBuild
+          |    |         |    |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |         |    |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    |         |    |    \--- :app:preBuild
+          |    |         |    |    |         |    \--- :app:preReleaseBuild
+          |    |         |    |    |         |         \--- :app:preBuild
+          |    |         |    |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |         |    |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    |         |    |    \--- :app:preBuild
+          |    |         |    |    |         |    \--- :app:preReleaseBuild
+          |    |         |    |    |         |         \--- :app:preBuild
+          |    |         |    |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |         |    |    |              +--- :app:preDebugBuild
+          |    |         |    |    |              |    \--- :app:preBuild
+          |    |         |    |    |              \--- :app:preReleaseBuild
+          |    |         |    |    |                   \--- :app:preBuild
+          |    |         |    |    \--- :app:generateDebugResValues
+          |    |         |    \--- :app:prepareDebugDependencies
+          |    |         |         +--- :app:checkDebugManifest
+          |    |         |         |    \--- :app:preDebugBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         +--- :app:preDebugBuild
+          |    |         |         |    \--- :app:preBuild
+          |    |         |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |         |         |    +--- :app:preDebugBuild
+          |    |         |         |    |    \--- :app:preBuild
+          |    |         |         |    \--- :app:preReleaseBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |         |         |    +--- :app:preDebugBuild
+          |    |         |         |    |    \--- :app:preBuild
+          |    |         |         |    \--- :app:preReleaseBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |         |         |    +--- :app:preDebugBuild
+          |    |         |         |    |    \--- :app:preBuild
+          |    |         |         |    \--- :app:preReleaseBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |         |         |    +--- :app:preDebugBuild
+          |    |         |         |    |    \--- :app:preBuild
+          |    |         |         |    \--- :app:preReleaseBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |         |         |    +--- :app:preDebugBuild
+          |    |         |         |    |    \--- :app:preBuild
+          |    |         |         |    \--- :app:preReleaseBuild
+          |    |         |         |         \--- :app:preBuild
+          |    |         |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |         |              +--- :app:preDebugBuild
+          |    |         |              |    \--- :app:preBuild
+          |    |         |              \--- :app:preReleaseBuild
+          |    |         |                   \--- :app:preBuild
+          |    |         \--- :app:processDebugManifest
+          |    |              \--- :app:prepareDebugDependencies
+          |    |                   +--- :app:checkDebugManifest
+          |    |                   |    \--- :app:preDebugBuild
+          |    |                   |         \--- :app:preBuild
+          |    |                   +--- :app:preDebugBuild
+          |    |                   |    \--- :app:preBuild
+          |    |                   +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |                   |    +--- :app:preDebugBuild
+          |    |                   |    |    \--- :app:preBuild
+          |    |                   |    \--- :app:preReleaseBuild
+          |    |                   |         \--- :app:preBuild
+          |    |                   +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |                   |    +--- :app:preDebugBuild
+          |    |                   |    |    \--- :app:preBuild
+          |    |                   |    \--- :app:preReleaseBuild
+          |    |                   |         \--- :app:preBuild
+          |    |                   +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |                   |    +--- :app:preDebugBuild
+          |    |                   |    |    \--- :app:preBuild
+          |    |                   |    \--- :app:preReleaseBuild
+          |    |                   |         \--- :app:preBuild
+          |    |                   +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |                   |    +--- :app:preDebugBuild
+          |    |                   |    |    \--- :app:preBuild
+          |    |                   |    \--- :app:preReleaseBuild
+          |    |                   |         \--- :app:preBuild
+          |    |                   +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |                   |    +--- :app:preDebugBuild
+          |    |                   |    |    \--- :app:preBuild
+          |    |                   |    \--- :app:preReleaseBuild
+          |    |                   |         \--- :app:preBuild
+          |    |                   \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |                        +--- :app:preDebugBuild
+          |    |                        |    \--- :app:preBuild
+          |    |                        \--- :app:preReleaseBuild
+          |    |                             \--- :app:preBuild
+          |    \--- :app:prepareDebugDependencies
+          |         +--- :app:checkDebugManifest
+          |         |    \--- :app:preDebugBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:preDebugBuild
+          |         |    \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |              +--- :app:preDebugBuild
+          |              |    \--- :app:preBuild
+          |              \--- :app:preReleaseBuild
+          |                   \--- :app:preBuild
+          +--- :app:prePackageMarkerForDebug
+          +--- :app:processDebugResources
+          |    +--- :app:mergeDebugAssets
+          |    |    +--- :app:generateDebugAssets
+          |    |    \--- :app:prepareDebugDependencies
+          |    |         +--- :app:checkDebugManifest
+          |    |         |    \--- :app:preDebugBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:preDebugBuild
+          |    |         |    \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |              +--- :app:preDebugBuild
+          |    |              |    \--- :app:preBuild
+          |    |              \--- :app:preReleaseBuild
+          |    |                   \--- :app:preBuild
+          |    +--- :app:mergeDebugResources
+          |    |    +--- :app:generateDebugResources
+          |    |    |    +--- :app:compileDebugRenderscript
+          |    |    |    |    +--- :app:checkDebugManifest
+          |    |    |    |    |    \--- :app:preDebugBuild
+          |    |    |    |    |         \--- :app:preBuild
+          |    |    |    |    \--- :app:prepareDebugDependencies
+          |    |    |    |         +--- :app:checkDebugManifest
+          |    |    |    |         |    \--- :app:preDebugBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:preDebugBuild
+          |    |    |    |         |    \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |    |    |              +--- :app:preDebugBuild
+          |    |    |    |              |    \--- :app:preBuild
+          |    |    |    |              \--- :app:preReleaseBuild
+          |    |    |    |                   \--- :app:preBuild
+          |    |    |    \--- :app:generateDebugResValues
+          |    |    \--- :app:prepareDebugDependencies
+          |    |         +--- :app:checkDebugManifest
+          |    |         |    \--- :app:preDebugBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:preDebugBuild
+          |    |         |    \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |              +--- :app:preDebugBuild
+          |    |              |    \--- :app:preBuild
+          |    |              \--- :app:preReleaseBuild
+          |    |                   \--- :app:preBuild
+          |    \--- :app:processDebugManifest
+          |         \--- :app:prepareDebugDependencies
+          |              +--- :app:checkDebugManifest
+          |              |    \--- :app:preDebugBuild
+          |              |         \--- :app:preBuild
+          |              +--- :app:preDebugBuild
+          |              |    \--- :app:preBuild
+          |              +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |              |    +--- :app:preDebugBuild
+          |              |    |    \--- :app:preBuild
+          |              |    \--- :app:preReleaseBuild
+          |              |         \--- :app:preBuild
+          |              +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |              |    +--- :app:preDebugBuild
+          |              |    |    \--- :app:preBuild
+          |              |    \--- :app:preReleaseBuild
+          |              |         \--- :app:preBuild
+          |              +--- :app:prepareComAndroidSupportDesign2411Library
+          |              |    +--- :app:preDebugBuild
+          |              |    |    \--- :app:preBuild
+          |              |    \--- :app:preReleaseBuild
+          |              |         \--- :app:preBuild
+          |              +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |              |    +--- :app:preDebugBuild
+          |              |    |    \--- :app:preBuild
+          |              |    \--- :app:preReleaseBuild
+          |              |         \--- :app:preBuild
+          |              +--- :app:prepareComAndroidSupportSupportV42411Library
+          |              |    +--- :app:preDebugBuild
+          |              |    |    \--- :app:preBuild
+          |              |    \--- :app:preReleaseBuild
+          |              |         \--- :app:preBuild
+          |              \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |                   +--- :app:preDebugBuild
+          |                   |    \--- :app:preBuild
+          |                   \--- :app:preReleaseBuild
+          |                        \--- :app:preBuild
+          +--- :app:transformClassesWithDexForDebug
+          |    +--- :app:compileDebugJavaWithJavac
+          |    |    +--- :app:generateDebugSources
+          |    |    |    +--- :app:compileDebugAidl
+          |    |    |    |    \--- :app:prepareDebugDependencies
+          |    |    |    |         +--- :app:checkDebugManifest
+          |    |    |    |         |    \--- :app:preDebugBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:preDebugBuild
+          |    |    |    |         |    \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |    |    |              +--- :app:preDebugBuild
+          |    |    |    |              |    \--- :app:preBuild
+          |    |    |    |              \--- :app:preReleaseBuild
+          |    |    |    |                   \--- :app:preBuild
+          |    |    |    +--- :app:compileDebugRenderscript
+          |    |    |    |    +--- :app:checkDebugManifest
+          |    |    |    |    |    \--- :app:preDebugBuild
+          |    |    |    |    |         \--- :app:preBuild
+          |    |    |    |    \--- :app:prepareDebugDependencies
+          |    |    |    |         +--- :app:checkDebugManifest
+          |    |    |    |         |    \--- :app:preDebugBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:preDebugBuild
+          |    |    |    |         |    \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |    |    |         |    +--- :app:preDebugBuild
+          |    |    |    |         |    |    \--- :app:preBuild
+          |    |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |    |         |         \--- :app:preBuild
+          |    |    |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |    |    |              +--- :app:preDebugBuild
+          |    |    |    |              |    \--- :app:preBuild
+          |    |    |    |              \--- :app:preReleaseBuild
+          |    |    |    |                   \--- :app:preBuild
+          |    |    |    +--- :app:generateDebugBuildConfig
+          |    |    |    |    \--- :app:checkDebugManifest
+          |    |    |    |         \--- :app:preDebugBuild
+          |    |    |    |              \--- :app:preBuild
+          |    |    |    \--- :app:processDebugResources
+          |    |    |         +--- :app:mergeDebugAssets
+          |    |    |         |    +--- :app:generateDebugAssets
+          |    |    |         |    \--- :app:prepareDebugDependencies
+          |    |    |         |         +--- :app:checkDebugManifest
+          |    |    |         |         |    \--- :app:preDebugBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         +--- :app:preDebugBuild
+          |    |    |         |         |    \--- :app:preBuild
+          |    |    |         |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |    |         |         |    +--- :app:preDebugBuild
+          |    |    |         |         |    |    \--- :app:preBuild
+          |    |    |         |         |    \--- :app:preReleaseBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |    |         |         |    +--- :app:preDebugBuild
+          |    |    |         |         |    |    \--- :app:preBuild
+          |    |    |         |         |    \--- :app:preReleaseBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |    |         |         |    +--- :app:preDebugBuild
+          |    |    |         |         |    |    \--- :app:preBuild
+          |    |    |         |         |    \--- :app:preReleaseBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |    |         |         |    +--- :app:preDebugBuild
+          |    |    |         |         |    |    \--- :app:preBuild
+          |    |    |         |         |    \--- :app:preReleaseBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |    |         |         |    +--- :app:preDebugBuild
+          |    |    |         |         |    |    \--- :app:preBuild
+          |    |    |         |         |    \--- :app:preReleaseBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |    |         |              +--- :app:preDebugBuild
+          |    |    |         |              |    \--- :app:preBuild
+          |    |    |         |              \--- :app:preReleaseBuild
+          |    |    |         |                   \--- :app:preBuild
+          |    |    |         +--- :app:mergeDebugResources
+          |    |    |         |    +--- :app:generateDebugResources
+          |    |    |         |    |    +--- :app:compileDebugRenderscript
+          |    |    |         |    |    |    +--- :app:checkDebugManifest
+          |    |    |         |    |    |    |    \--- :app:preDebugBuild
+          |    |    |         |    |    |    |         \--- :app:preBuild
+          |    |    |         |    |    |    \--- :app:prepareDebugDependencies
+          |    |    |         |    |    |         +--- :app:checkDebugManifest
+          |    |    |         |    |    |         |    \--- :app:preDebugBuild
+          |    |    |         |    |    |         |         \--- :app:preBuild
+          |    |    |         |    |    |         +--- :app:preDebugBuild
+          |    |    |         |    |    |         |    \--- :app:preBuild
+          |    |    |         |    |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |    |         |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |    |    |         |         \--- :app:preBuild
+          |    |    |         |    |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |    |         |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |    |    |         |         \--- :app:preBuild
+          |    |    |         |    |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |    |         |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |    |    |         |         \--- :app:preBuild
+          |    |    |         |    |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |    |         |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |    |    |         |         \--- :app:preBuild
+          |    |    |         |    |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |    |         |    |    |         |    +--- :app:preDebugBuild
+          |    |    |         |    |    |         |    |    \--- :app:preBuild
+          |    |    |         |    |    |         |    \--- :app:preReleaseBuild
+          |    |    |         |    |    |         |         \--- :app:preBuild
+          |    |    |         |    |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |    |         |    |    |              +--- :app:preDebugBuild
+          |    |    |         |    |    |              |    \--- :app:preBuild
+          |    |    |         |    |    |              \--- :app:preReleaseBuild
+          |    |    |         |    |    |                   \--- :app:preBuild
+          |    |    |         |    |    \--- :app:generateDebugResValues
+          |    |    |         |    \--- :app:prepareDebugDependencies
+          |    |    |         |         +--- :app:checkDebugManifest
+          |    |    |         |         |    \--- :app:preDebugBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         +--- :app:preDebugBuild
+          |    |    |         |         |    \--- :app:preBuild
+          |    |    |         |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |    |         |         |    +--- :app:preDebugBuild
+          |    |    |         |         |    |    \--- :app:preBuild
+          |    |    |         |         |    \--- :app:preReleaseBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |    |         |         |    +--- :app:preDebugBuild
+          |    |    |         |         |    |    \--- :app:preBuild
+          |    |    |         |         |    \--- :app:preReleaseBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |    |         |         |    +--- :app:preDebugBuild
+          |    |    |         |         |    |    \--- :app:preBuild
+          |    |    |         |         |    \--- :app:preReleaseBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |    |         |         |    +--- :app:preDebugBuild
+          |    |    |         |         |    |    \--- :app:preBuild
+          |    |    |         |         |    \--- :app:preReleaseBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |    |         |         |    +--- :app:preDebugBuild
+          |    |    |         |         |    |    \--- :app:preBuild
+          |    |    |         |         |    \--- :app:preReleaseBuild
+          |    |    |         |         |         \--- :app:preBuild
+          |    |    |         |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |    |         |              +--- :app:preDebugBuild
+          |    |    |         |              |    \--- :app:preBuild
+          |    |    |         |              \--- :app:preReleaseBuild
+          |    |    |         |                   \--- :app:preBuild
+          |    |    |         \--- :app:processDebugManifest
+          |    |    |              \--- :app:prepareDebugDependencies
+          |    |    |                   +--- :app:checkDebugManifest
+          |    |    |                   |    \--- :app:preDebugBuild
+          |    |    |                   |         \--- :app:preBuild
+          |    |    |                   +--- :app:preDebugBuild
+          |    |    |                   |    \--- :app:preBuild
+          |    |    |                   +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |    |                   |    +--- :app:preDebugBuild
+          |    |    |                   |    |    \--- :app:preBuild
+          |    |    |                   |    \--- :app:preReleaseBuild
+          |    |    |                   |         \--- :app:preBuild
+          |    |    |                   +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |    |                   |    +--- :app:preDebugBuild
+          |    |    |                   |    |    \--- :app:preBuild
+          |    |    |                   |    \--- :app:preReleaseBuild
+          |    |    |                   |         \--- :app:preBuild
+          |    |    |                   +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |    |                   |    +--- :app:preDebugBuild
+          |    |    |                   |    |    \--- :app:preBuild
+          |    |    |                   |    \--- :app:preReleaseBuild
+          |    |    |                   |         \--- :app:preBuild
+          |    |    |                   +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |    |                   |    +--- :app:preDebugBuild
+          |    |    |                   |    |    \--- :app:preBuild
+          |    |    |                   |    \--- :app:preReleaseBuild
+          |    |    |                   |         \--- :app:preBuild
+          |    |    |                   +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |    |                   |    +--- :app:preDebugBuild
+          |    |    |                   |    |    \--- :app:preBuild
+          |    |    |                   |    \--- :app:preReleaseBuild
+          |    |    |                   |         \--- :app:preBuild
+          |    |    |                   \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |    |                        +--- :app:preDebugBuild
+          |    |    |                        |    \--- :app:preBuild
+          |    |    |                        \--- :app:preReleaseBuild
+          |    |    |                             \--- :app:preBuild
+          |    |    \--- :app:prepareDebugDependencies
+          |    |         +--- :app:checkDebugManifest
+          |    |         |    \--- :app:preDebugBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:preDebugBuild
+          |    |         |    \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |              +--- :app:preDebugBuild
+          |    |              |    \--- :app:preBuild
+          |    |              \--- :app:preReleaseBuild
+          |    |                   \--- :app:preBuild
+          |    \--- :app:prepareDebugDependencies
+          |         +--- :app:checkDebugManifest
+          |         |    \--- :app:preDebugBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:preDebugBuild
+          |         |    \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |              +--- :app:preDebugBuild
+          |              |    \--- :app:preBuild
+          |              \--- :app:preReleaseBuild
+          |                   \--- :app:preBuild
+          +--- :app:transformNative_libsWithMergeJniLibsForDebug
+          |    +--- :app:compileDebugNdk
+          |    |    \--- :app:preDebugBuild
+          |    |         \--- :app:preBuild
+          |    +--- :app:mergeDebugJniLibFolders
+          |    |    +--- :app:generateDebugAssets
+          |    |    \--- :app:prepareDebugDependencies
+          |    |         +--- :app:checkDebugManifest
+          |    |         |    \--- :app:preDebugBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:preDebugBuild
+          |    |         |    \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |         |    +--- :app:preDebugBuild
+          |    |         |    |    \--- :app:preBuild
+          |    |         |    \--- :app:preReleaseBuild
+          |    |         |         \--- :app:preBuild
+          |    |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |              +--- :app:preDebugBuild
+          |    |              |    \--- :app:preBuild
+          |    |              \--- :app:preReleaseBuild
+          |    |                   \--- :app:preBuild
+          |    \--- :app:prepareDebugDependencies
+          |         +--- :app:checkDebugManifest
+          |         |    \--- :app:preDebugBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:preDebugBuild
+          |         |    \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportDesign2411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         +--- :app:prepareComAndroidSupportSupportV42411Library
+          |         |    +--- :app:preDebugBuild
+          |         |    |    \--- :app:preBuild
+          |         |    \--- :app:preReleaseBuild
+          |         |         \--- :app:preBuild
+          |         \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |              +--- :app:preDebugBuild
+          |              |    \--- :app:preBuild
+          |              \--- :app:preReleaseBuild
+          |                   \--- :app:preBuild
+          +--- :app:transformResourcesWithMergeJavaResForDebug
+          |    +--- :app:prepareDebugDependencies
+          |    |    +--- :app:checkDebugManifest
+          |    |    |    \--- :app:preDebugBuild
+          |    |    |         \--- :app:preBuild
+          |    |    +--- :app:preDebugBuild
+          |    |    |    \--- :app:preBuild
+          |    |    +--- :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
+          |    |    |    +--- :app:preDebugBuild
+          |    |    |    |    \--- :app:preBuild
+          |    |    |    \--- :app:preReleaseBuild
+          |    |    |         \--- :app:preBuild
+          |    |    +--- :app:prepareComAndroidSupportAppcompatV72411Library
+          |    |    |    +--- :app:preDebugBuild
+          |    |    |    |    \--- :app:preBuild
+          |    |    |    \--- :app:preReleaseBuild
+          |    |    |         \--- :app:preBuild
+          |    |    +--- :app:prepareComAndroidSupportDesign2411Library
+          |    |    |    +--- :app:preDebugBuild
+          |    |    |    |    \--- :app:preBuild
+          |    |    |    \--- :app:preReleaseBuild
+          |    |    |         \--- :app:preBuild
+          |    |    +--- :app:prepareComAndroidSupportRecyclerviewV72411Library
+          |    |    |    +--- :app:preDebugBuild
+          |    |    |    |    \--- :app:preBuild
+          |    |    |    \--- :app:preReleaseBuild
+          |    |    |         \--- :app:preBuild
+          |    |    +--- :app:prepareComAndroidSupportSupportV42411Library
+          |    |    |    +--- :app:preDebugBuild
+          |    |    |    |    \--- :app:preBuild
+          |    |    |    \--- :app:preReleaseBuild
+          |    |    |         \--- :app:preBuild
+          |    |    \--- :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+          |    |         +--- :app:preDebugBuild
+          |    |         |    \--- :app:preBuild
+          |    |         \--- :app:preReleaseBuild
+          |    |              \--- :app:preBuild
+          |    \--- :app:processDebugJavaRes
+          \--- :app:validateDebugSigning
+
+
+To see task dependency tree for a specific task, run gradle <project-path>:<task> <project-path>:taskTree [--no-repeat]
+Executions of all tasks except for taskTree will be skipped. They will be used for building the task graph only.
+
+Add --no-repeat to prevent printing a subtree of the same task more than once.
+
+For example, try running gradle :app:build :app:taskTree
+
+BUILD SUCCESSFUL
+
+Total time: 9.265 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.14.1/userguide/gradle_daemon.html
