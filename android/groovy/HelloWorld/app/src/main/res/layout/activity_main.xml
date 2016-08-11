@@ -25,7 +25,15 @@
     <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-        <include layout="@layout/content_main"/>
+        <TextView
+                android:id="@+id/text"
+                android:text="Hello World From MainActivity! in Java."
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"/>
+
         <FrameLayout
                 android:id="@+id/container"
                 android:visibility="gone"

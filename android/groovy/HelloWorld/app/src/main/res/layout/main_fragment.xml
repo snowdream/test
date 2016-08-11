@@ -4,7 +4,8 @@
               android:layout_height="match_parent">
 
     <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-              android:text="Hello World From Groovy!"
+              android:text="Hello World From MainFragment! in Groovy."
               android:gravity="center"
-              android:textSize="30sp"/>
+              android:textSize="30sp"
+              android:textColor="@android:color/black"/>
 </LinearLayout>
