@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.FrameLayout;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,12 +20,23 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        final FrameLayout container = (FrameLayout) findViewById(R.id.container);
+        final TextView textView =(TextView) findViewById(R.id.text);
+
        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                if (container.getVisibility() == View.GONE) {
+                    container.setVisibility(View.VISIBLE);
+                    textView.setVisibility(View.GONE);
+                    MainFragment fragment = new MainFragment();
+                    getSupportFragmentManager().beginTransaction().add(R.id.container, fragment).commit();
+                } else {
+                    container.setVisibility(View.GONE);
+                    textView.setVisibility(View.VISIBLE);
+                    getSupportFragmentManager().popBackStack();
+                }
             }
         });
     }
